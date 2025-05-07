@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal snippet</title>
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <script src="assets/js/modal.js" defer></script>
+</head>
+<body>
+    <!-- Kontakt Modal -->
+<div id="kontaktModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Kontakt os</h2>
+      <form id="kontaktForm">
+        <label for="navn">Fulde Navn:</label>
+        <input type="text" id="navn" name="navn" required>
+  
+        <label for="telefon">Tlf. nummer:</label>
+        <input type="tel" id="telefon" name="telefon" pattern="[0-9]{8}" required>
+  
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <div class="form-buttons">
+          <button type="reset">Reset</button>
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- End of Kontakt Modal -->  
+ <nav>
+    <ul>
+        <li><a href="#contact" class="open-modal">Åbn Kontakt Modal</a></li>
+    </ul>
+ </nav>
+</body>
+</html>

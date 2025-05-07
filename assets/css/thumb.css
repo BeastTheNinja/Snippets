@@ -1,0 +1,34 @@
+#favoriteParent {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 0px;
+    padding: 0 40px 40px 40px;
+  }
+  
+  #favoriteParent .div1 {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+  
+  #favoriteParent .div2 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  
+  #favoriteParent .div3 {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+  
+  #favoriteParent .div4 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  
+  #favoriteParent .div5 {
+    grid-area: 2 / 4 / 3 / 5;
+  }
+  
+  #favoriteParent img {
+    width: 100%;
+    cursor: pointer;
+  }
