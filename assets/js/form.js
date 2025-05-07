@@ -44,6 +44,7 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
     e.preventDefault(); // Stop formularet fra at blive sendt, før validering
     validateForm();
 });
+    
 
 function validateForm() {
     const firstName = document.getElementById('firstname').value;
